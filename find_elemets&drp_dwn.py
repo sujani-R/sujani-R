@@ -50,3 +50,12 @@ for option in alloptions:
        option.click()
        time.sleep(1)
        break
+
+   #<input attr1='a' attr2='b' attr3='c'>foo</input>
+#getAttribute(attr1) you get 'a'
+
+#getAttribute(attr2) you get 'b'
+
+#getAttribute(attr3) you get 'c'
+
+#getText() with no parameter you can only get 'foo'
